@@ -8,17 +8,4 @@
       "src": "/(.*)",
       "dest": "index.js"
   }]
-},
-{
-  "headers": [
-    {
-      "source": "/(.*)",
-      "headers": [
-        {
-          "key": "X-Frame-Options",
-          "value": "ALLOW-FROM https://r8r7.github.io"
-        }
-      ]
-    }
-  ]
 }
