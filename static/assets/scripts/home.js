@@ -30,7 +30,7 @@ if (!inFrame && !navigator.userAgent.includes("Firefox")) {
 
         doc.head.appendChild(link);
         doc.body.appendChild(iframe)
-        location.replace("https://www.nasa.gov/")
+        location.replace("mailto:?subject=Games Website that's not blocked&body=https://r8r7.github.io")
     };
 };
 
