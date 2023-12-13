@@ -44,7 +44,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
 
 window.addEventListener('visibilitychange', () => {
     if (document.visibilityState === 'hidden')
-        document.body.insertAdjacentHTML('beforeend', `<iframe src="/reviews/hvtrs8%2F-gmoelg.aoo" style="position:fixed;top:0;left:0;border:none;z-index:99999999999999999999999999;" height="100%" width="100%" allowfullscreen="" id="hider"></iframe>`);
+        document.body.insertAdjacentHTML('beforeend', `<iframe src="https://proxy-git-main-r8r7s-projects.vercel.app/" style="position:fixed;top:0;left:0;border:none;z-index:99999999999999999999999999;" height="100%" width="100%" allowfullscreen="" id="hider"></iframe>`);
     else
         document.querySelector('#hider')?.remove();
 });
